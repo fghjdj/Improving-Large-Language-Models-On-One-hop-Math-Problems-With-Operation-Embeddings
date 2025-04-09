@@ -9,7 +9,7 @@ This repository contains the official source code for the paper **"Improving Lar
 - **LLaMA Checkpoints**: Obtain LLaMA-13B model weights and tokenizer from [Meta AI](https://github.com/facebookresearch/llama). Follow the official repository for access instructions.
 
 ### Training
-- **CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.run \
+- CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.run \
 --nproc_per_node 2 \
 --master_port 1200 \
 train_llama.py \
@@ -22,7 +22,7 @@ train_llama.py \
 
   
 ### Inference
-- **CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.run \
+- CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.run \
 --nproc_per_node 2 \
 --master_port 1250 \
 inference_llama.py \
@@ -32,3 +32,6 @@ inference_llama.py \
 --dataset funcqa_oh \
 --func_load_path checkpoints/funcqa/epoch_5.pth \
 --logits_bias 4.4
+
+  ### Analysis
+related_examples.py is for find the relationship between total examples and relevant examples at optimal accuracy.
