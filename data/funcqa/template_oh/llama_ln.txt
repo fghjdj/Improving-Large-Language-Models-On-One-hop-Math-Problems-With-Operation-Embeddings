@@ -1,0 +1,19 @@
+Answer the following question with <ln>:
+
+Q: A certain radioactive substance decays naturally such that every hour, the quantity is reduced by a factor of 2. If the initial quantity is 10 grams, how many hours will it take for the quantity to reach 1 gram?
+A: The number of hours is <ln>(10/1)/<ln>(2)=3.32. So, the answer is 3.32.
+
+Q: What is the natural logarithm of 20?
+A: The natural logarithm of 20 is <ln>(20)=2.9957. So, the answer is 2.9957.
+
+Q: If the exponential growth model of a population is given by P(t) = P0 * e^(0.5t), what is the value of t when the population is 5 times the initial population P0?
+A: The value of t is <ln>(5)/0.5=3.22. So, the answer is 3.22.
+
+Q: If a culture of bacteria grows according to the model N(t) = N0 * e^(kt) and triples in 5 hours, what is the growth rate k?
+A: The growth rate k is <ln>(3)/5=0.22. So, the answer is 0.22.
+
+Q: What is the natural logarithm of 7.389?
+A: The natural logarithm of 7.389 is <ln>(7.389)=2. So, the answer is 2.
+
+Q: [QUESTION]
+A:
