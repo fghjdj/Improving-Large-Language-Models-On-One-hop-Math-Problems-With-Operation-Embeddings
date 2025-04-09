@@ -33,5 +33,5 @@ inference_llama.py \
 --func_load_path checkpoints/funcqa/epoch_5.pth \
 --logits_bias 4.4
 
-  ### Analysis
-related_examples.py is for find the relationship between total examples and relevant examples at optimal accuracy.
+## Acknowledgement
+This work builds upon [ToolkenGPT](https://github.com/Ber666/ToolkenGPT). We sincerely thank the authors for their foundational contributions to tool-augmented language modeling.
